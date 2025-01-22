@@ -71,8 +71,12 @@ WSGI_APPLICATION = 'jewelryshop.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ecom',  # Name of your database
+        'USER': 'root',       # MySQL username
+        'PASSWORD': 'NeeBap001@',   # MySQL password
+        'HOST': 'localhost',           # Host (use '127.0.0.1' or the server address)
+        'PORT': '3306',                # MySQL port (default is 3306)
     }
 }
 
