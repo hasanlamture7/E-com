@@ -74,7 +74,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ecom',  # Name of your database
         'USER': 'root',       # MySQL username
-        'PASSWORD': 'NeeBap001@',   # MySQL password
+        'PASSWORD': 'Ajara@1234',   # MySQL password
         'HOST': 'localhost',           # Host (use '127.0.0.1' or the server address)
         'PORT': '3306',                # MySQL port (default is 3306)
     }
@@ -131,3 +131,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+
