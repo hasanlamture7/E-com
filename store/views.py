@@ -9,6 +9,8 @@ import decimal
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator # for Class Based Views
 from django.contrib.auth import logout
+from django.db.models import Q
+from django.http import JsonResponse
 
 # Create your views here.
 
@@ -231,3 +233,28 @@ def test(request):
 def logouts(request):
     logout(request)
     return redirect('store:home')
+
+def search(request):
+    query = request.GET.get('q', '').strip()  # Get the search term from the query parameter
+    products = []
+    categories = []
+
+    if query:
+        # Search in both Product and Category models
+        products = Product.objects.filter(
+            Q(title__icontains=query) |
+            Q(short_description__icontains=query) |
+            Q(detail_description__icontains=query)
+        )
+
+        categories = Category.objects.filter(
+            Q(title__icontains=query) |
+            Q(description__icontains=query)
+        )
+
+    context = {
+        'query': query,
+        'products': products,
+        'categories': categories,
+    }
+    return render(request, 'store/search_results.html', context)

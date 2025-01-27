@@ -74,7 +74,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ecom',  # Name of your database
         'USER': 'root',       # MySQL username
-        'PASSWORD': 'Ajara@1234',   # MySQL password
+        'PASSWORD': 'NeeBap001@',   # MySQL password
         'HOST': 'localhost',           # Host (use '127.0.0.1' or the server address)
         'PORT': '3306',                # MySQL port (default is 3306)
     }
