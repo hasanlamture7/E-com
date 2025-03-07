@@ -1,11 +1,7 @@
 # Django Simple E-Commerce Website with Payment
 This is a simple e-commerce website built with Django (Python) and PayPal is added as payment processor.
 
-I've made this as a "Jewelry Shop" website but you can make any website you like.
-
-
-[Project Demo on YouTube](https://www.youtube.com/watch?v=7IQwbIYfkNI "Django Simple E-Commerce Website")
-
+I've made this as a "Electronics Shop" website but you can make any website you like.
 
 And if you like this project then ADD a STAR ⭐️  to this project 👆
 
@@ -34,17 +30,8 @@ And if you like this project then ADD a STAR ⭐️  to this project 👆
 
 
 ## Support Developer
-1. Subscribe & Share my YouTube Channel - https://bit.ly/vijay-thapa-online-courses
-2. Add a Star 🌟  to this 👆 Repository
 
-
-## Donate
-
-**[PayPal](https://bit.ly/support-vijay-thapa)**
-
-**[Buy me a Coffee  ☕️](https://www.buymeacoffee.com/vijaythapa)**
-
-**Donate by wire transfer:** E-Mail at *donate@vijaythapa.com* for wire transfer details. 
+ Add a Star 🌟  to this 👆 Repository
 
 
 ## How to Install and Run this project?
@@ -149,6 +136,5 @@ Then Add Email, Username and Password
 
 
 ## For Sponsor or Projects Enquiry
-1. Email - hi@vijaythapa.com
-2. LinkedIn - [vijaythapa](https://www.linkedin.com/in/vijaythapa "Vijay Thapa on LinkedIn")
+1. Email - mahamadhasanlamture7@gmail.com
 
